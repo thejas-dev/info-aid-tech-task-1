@@ -34,7 +34,7 @@ export default function Header() {
 			<div className="gap-8 md:flex hiddens items-center">
 				{
 					data?.map((dat,j)=>(
-						<div className="flex items-center hover:text-purple-600 transition-all 
+						<div key={j} className="flex items-center hover:text-purple-600 transition-all 
 						cursor-pointer duration-200 ease-in-out gap-4 text-white">
 							<PiCaretDownFill className="h-6 w-6"/>
 							<h1 className="text-lg">{dat?.title}</h1>

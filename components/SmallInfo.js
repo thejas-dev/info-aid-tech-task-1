@@ -27,7 +27,7 @@ export default function SmallInfo() {
 		<main className="w-full flex items-center bg-[#61413f] p-14 px-[60px] md:flex-row flex-col gap-6">
 			{
 				data?.map((dat,j)=>(
-					<div className="flex md:items-start items-center gap-4">
+					<div key={j} className="flex md:items-start items-center gap-4">
 						<div className="">
 							<div className="bg-white rounded-lg p-3">
 								{dat?.icon}

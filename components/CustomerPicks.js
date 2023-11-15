@@ -53,7 +53,7 @@ export default function CustomerPicks() {
 									<div className="star flex items-center justify-between pr-10">
 										{
 											dat?.star?.map((str,k)=>(
-												<IoIosStar className={`h-5 w-5 ${str === 'yes' ? 'text-[#61413f]' : 'text-gray-200'} `}/>
+												<IoIosStar key={k} className={`h-5 w-5 ${str === 'yes' ? 'text-[#61413f]' : 'text-gray-200'} `}/>
 											))
 										}
 									</div>
