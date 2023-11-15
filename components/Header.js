@@ -23,7 +23,7 @@ export default function Header() {
 
 
 	return (
-		<main className="w-full flex items-center bg-black justify-between px-10 py-4 shadow-md shadow-white">
+		<main className="w-full flex items-center bg-black justify-between md:px-10 px-2 py-4 shadow-md shadow-white">
 			<div className="flex items-center gap-2 text-white">
 				<GiPirateFlag className="h-14 w-14"/>
 				<h1 className="font-semibold text-xl flex flex-col">
